@@ -32,10 +32,26 @@ PORTION_2 = {
 
 def naming_system
   naming_system = {
-    PORTION_1
-    PORTION_2
-    PORTION_3
-    PORTION_4
+    label: "Kingdom",
+    sub_category: {
+      label: "Phylum",
+       sub_category: {
+          label: "Class"
+              }
+          },
+    {
+      label: "Order"
+    },
+    {
+      label: "Family",
+      sub_category: {
+        label: "Genus",
+      }
+    },
+    {
+      label: "Species",
+      sub_category: nil
+    }
   }
   naming_system
   # Remember:
